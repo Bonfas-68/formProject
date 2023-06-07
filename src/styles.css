@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Comfortaa:wght@500&family=Sono:wght@400;600&display=swap") * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sono", sans-serif;
+}
+
+.App {
+  font-family: inherit;
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.header {
+  font-size: 48px;
+  color: #00130d;
+  margin: 24px 0;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+}
+form {
+  width: 80%;
+  padding: 12px 24px;
+  margin: 10px auto 32px;
+}
+input {
+  width: 90%;
+  padding: 16px 32px;
+  font-size: 21px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  background-color: #b8c2be8f;
+  color: #00130d;
+}
+input:focus {
+  border-top: 4px solid #0c1f18;
+  outline: none;
+}
+label {
+  font-family: "Coiny", Courier, monospace;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: #0c1f18;
+  font-weight: 600;
+}
+.form-group {
+  text-align: left;
+  width: 90%;
+  margin: 12px auto 32px;
+  line-height: 1.6;
+}
+.btn {
+  font-family: "Sono", sans-serif;
+  padding: 12px 24px;
+  color: #fbfcfc;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 100px;
+  background-color: #0c1f18;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+  /* margin-top: ; */
+}
+.btn:hover {
+  background-color: #b8c2be8f;
+  color: #0c1f18;
+}
+.alert {
+  font-size: 12px;
+  color: crimson;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.user {
+  border-top: 1px solid #ccc;
+  padding: 12px 24px;
+  text-align: left;
+  border-left: 4px solid #0c1f18;
+}
+.username {
+  font-size: 21px;
+  color: #0c1f18;
+  margin-bottom: 4px;
+}
+.useremail {
+  font-size: 12px;
+  color: rgb(53, 43, 43);
+}
+@media only screen and (max-width: 900px) {
+  .form-group {
+    width: 100%;
+  }
+  .App {
+    width: 90%;
+  }
+  form {
+    width: 100%;
+  }
+}
